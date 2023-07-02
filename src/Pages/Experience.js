@@ -1,6 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-
+import { MdSchool } from "react-icons/md";
+import { MdOutlineWork } from "react-icons/md";
 
 function Experience() {
   return (
@@ -10,10 +11,10 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2011 - 2015"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-         
+          icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
-          University of Information Technology and Management in Rzeszow
+            University of Information Technology and Management in Rzeszow
           </h3>
           <p>Engineering diploma</p>
         </VerticalTimelineElement>
@@ -21,10 +22,10 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2016 - 2017"
           iconStyle={{ background: "#006633", color: "#fff" }}
-          
+          icon={<MdOutlineWork />}
         >
           <h3 className="vertical-timeline-element-title">
-          Bury Sp. z o.o.
+            Bury Sp. z o.o.
           </h3>
           <p>Junior forwarding specialist</p>
         </VerticalTimelineElement>
@@ -32,10 +33,10 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2017 - 2017"
           iconStyle={{ background: "#006633", color: "#fff" }}
-          
+          icon={<MdOutlineWork />}
         >
           <h3 className="vertical-timeline-element-title">
-          Bury Sp. z o.o.
+            Bury Sp. z o.o.
           </h3>
           <p>forwarding specialist</p>
         </VerticalTimelineElement>
@@ -43,10 +44,10 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2017 - 2021"
           iconStyle={{ background: "#006633", color: "#fff" }}
-          
+          icon={<MdOutlineWork />}
         >
           <h3 className="vertical-timeline-element-title">
-          Bury Sp. z o.o.
+            Bury Sp. z o.o.
           </h3>
           <p>forwarding specialist - leader</p>
         </VerticalTimelineElement>
@@ -54,10 +55,10 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2021 - 2022"
           iconStyle={{ background: "#006633", color: "#fff" }}
-         
+          icon={<MdOutlineWork />}
         >
           <h3 className="vertical-timeline-element-title">
-          Bury Sp. z o.o.
+            Bury Sp. z o.o.
           </h3>
           <p>junior logistics specialist</p>
         </VerticalTimelineElement>
@@ -65,15 +66,15 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2022 "
           iconStyle={{ background: "#006633", color: "#fff" }}
-         
+          icon={<MdOutlineWork />}
         >
           <h3 className="vertical-timeline-element-title">
-          Bury Sp. z o.o.
+            Bury Sp. z o.o.
           </h3>
           <p>Junior Project Launch Manager</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
-    </div>
+    </div >
   )
 }
 
